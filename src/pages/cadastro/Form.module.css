@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.form {
+    display: flex;
+    flex-direction: column;
+    color: #E0E0E0;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 100px;
+}
+
+.titulo {
+    font-family: Mulish;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    margin-bottom: 6px;
+    color: #E0E0E0;
+}
+
+.sub {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #E0E0E0;
+    ;
+}

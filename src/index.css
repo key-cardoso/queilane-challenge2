@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-container {
+    width: 60%;
+}
+
+.image-container {
+    width: 0%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
