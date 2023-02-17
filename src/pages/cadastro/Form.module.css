@@ -27,3 +27,31 @@
     color: #E0E0E0;
     ;
 }
+
+input {
+    background: #26292C;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    font-family: 'Mulish';
+    color: #E0E0E0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 54px;
+}
+
+label {
+    width: 379px;
+    height: 60px;
+    left: 388px;
+    top: 344px;
+    color: #E0E0E0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
