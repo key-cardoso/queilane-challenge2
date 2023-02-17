@@ -11,15 +11,15 @@ body {
 }
 
 .form-container {
-    width: 60%;
+    height: 50vh;
 }
 
 .image-container {
-    width: 0%;
+    height: 50vh;
 }
 
 .img {
-    width: 100%;
-    height: auto;
+    width: 100vh;
+    height: 100vh;
     text-align: right;
 }
