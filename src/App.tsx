@@ -2,6 +2,7 @@ import React from 'react';
 import Form from '../src/pages/cadastro/Form';
 import { FormData } from '../src/pages/cadastro/FormData';
 import imagem from './img/image1.png'
+import logo from './img/logo.png'
 
 const App: React.FC = () => {
   const handleSubmit = (data: FormData) => {
@@ -13,10 +14,12 @@ const App: React.FC = () => {
       <div className='form-container'>
         <Form  onSubmit={handleSubmit} />
       </div>
+      
       <div className='imagem-container'>
         <img className='img' src={imagem} alt="Imagem" />
+        <a href="https://compass.uol/en/home/"><img className='logo' src={logo} alt="logo" /></a>
       </div>
-      
+
     </div>
 
   );
