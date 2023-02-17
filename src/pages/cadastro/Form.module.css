@@ -6,6 +6,7 @@
     text-align: justify;
     text-justify: inter-word;
     margin-left: 100px;
+    height: 100vh;
 }
 
 .titulo {
@@ -54,4 +55,5 @@ label {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    margin-right: 50px;
 }
