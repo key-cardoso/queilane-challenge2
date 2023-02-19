@@ -1,59 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-.form {
-    display: flex;
-    flex-direction: column;
-    color: #E0E0E0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    color: #e0e0e0;
+    background-color: #26292c;
     text-align: justify;
     text-justify: inter-word;
-    margin-left: 100px;
     height: 100vh;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
 .titulo {
-    font-family: Mulish;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
-    line-height: 75px;
-    letter-spacing: 0em;
-    margin-bottom: 6px;
-    color: #E0E0E0;
+    line-height: 70px;
+    letter-spacing: 0;
+    margin-bottom: 10px;
 }
 
 .sub {
-    font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
-    color: #E0E0E0;
-    ;
+    letter-spacing: 0;
+    padding-bottom: 25px;
 }
 
-input {
-    background: #26292C;
-    border: 1px solid #FFFFFF;
-    border-radius: 50px;
-    width: 130px;
-    height: 30px;
-    font-family: 'Mulish';
-    color: #E0E0E0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    padding-right: 54px;
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.campo {
+    padding-bottom: 15px;
 }
 
 label {
-    width: 379px;
-    height: 60px;
-    left: 388px;
-    top: 344px;
-    color: #E0E0E0;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
+    color: #e0e0e0;
     font-size: 16px;
     line-height: 20px;
     margin-right: 50px;
+}
+
+input {
+    background-color: #26292c;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.b1 {
+    width: 256px;
+    height: 35px;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 8px;
+    color: #e0e0e0;
+    font-size: 20px;
+}
+
+.b2 {
+    width: 256px;
+    height: 35px;
+    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    border: none;
+    color: #e0e0e0;
+    font-size: 20px;
 }
