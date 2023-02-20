@@ -3,10 +3,10 @@ const isValidEmail = (email: string) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
-  const isValidPassword = (password: string) => {
-    const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_\-+={}[\]|;:'",.<>/?])([A-Za-z\d!@#$%^&*()_\-+={}[\]|;:'",.<>/?]{4,})$/;
-    return passwordRegex.test(password);
-  };
+const isValidPassword = (password: string) => {
+   const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_\-+={}[\]|;:'",.<>/?])([A-Za-z\d!@#$%^&*()_\-+={}[\]|;:'",.<>/?]{4,})$/;
+  return passwordRegex.test(password);
+};
   
   
   const validateForm = (data: FormData): { isValid: boolean; errors: Record<string, string> } => {
@@ -45,11 +45,11 @@ const isValidEmail = (email: string) => {
       errors.email = "Endereço de e-mail inválido";
     }
      // validação do campo "password"
-     if (!data.password.trim()) {
+    if (!data.password.trim()) {
         errors.password = "Senha é um campo obrigatório";
-      }else if (!isValidPassword(data.password)) {
-          errors.email = "Endereço de e-mail inválido";
-      }
+    }else if (!isValidPassword(data.password)) {
+          errors.email = "Senha inválida";
+    }
   
     // validação do campo confirmação de senha
     if (data.password !== data.conpassword) {
