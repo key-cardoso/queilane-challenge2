@@ -119,3 +119,14 @@ label {
     font-size: 20px;
     cursor: pointer;
 }
+
+span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    /* Primaria */
+    color: #E9B425;
+}
