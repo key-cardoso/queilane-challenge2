@@ -17,9 +17,10 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     padding-top: 50px;
-    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 0;
 }
 
 .titulo {
@@ -35,33 +36,59 @@ body {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-around;
 }
 
 .campo {
     padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 label {
     color: #e0e0e0;
     font-size: 16px;
     line-height: 20px;
-    margin-right: 50px;
+    margin-right: 10px;
+    /* diminui em 10 pixels */
 }
 
-input {
+.campo input[type="password"] {
     background-color: #26292c;
     border: 1px solid #ffffff;
     border-radius: 50px;
-    width: 130px;
-    height: 30px;
+    width: 250px;
+    height: 36px;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.campo input[type="text"] {
+    background-color: #26292c;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 250px;
+    height: 36px;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.campo input[type="date"] {
+    background-color: #26292c;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    width: 250px;
+    height: 36px;
     justify-content: space-between;
     font-style: normal;
     font-weight: 400;
@@ -69,7 +96,7 @@ input {
 }
 
 .b1 {
-    width: 256px;
+    width: 356px;
     height: 35px;
     background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
     box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
@@ -78,10 +105,11 @@ input {
     margin-bottom: 8px;
     color: #e0e0e0;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .b2 {
-    width: 256px;
+    width: 356px;
     height: 35px;
     background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
     box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
@@ -89,4 +117,5 @@ input {
     border: none;
     color: #e0e0e0;
     font-size: 20px;
+    cursor: pointer;
 }
