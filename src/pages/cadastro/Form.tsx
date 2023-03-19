@@ -40,7 +40,7 @@ const Form: React.FC<FormProps> = ({ onSubmit }) => {
       // chama a função de callback
       
 
-      history.push('/src/pages/login/Login.tsx');
+      history.push('/login');
     }
   };
 
